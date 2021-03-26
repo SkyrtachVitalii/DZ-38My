@@ -1,0 +1,10 @@
+.Basket{
+    background-color: burlywood;
+    width: 60%;
+    &__title{
+        font-weight: bold;
+        font-size: 36px;
+        font-style: italic;
+        margin-left: 40px;
+    }
+}

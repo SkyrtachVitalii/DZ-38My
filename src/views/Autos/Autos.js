@@ -1,7 +1,7 @@
 import "./Autos.scss";
 import Auto from "../../components/Auto/Auto";
 
-let autos= [
+const autos= [
     {
       id: 0,
     title: "Tesla",
@@ -108,7 +108,7 @@ let autos= [
     img: "https://3dnews.ru/assets/external/illustrations/2020/09/23/1021277/tesla1.jpg"
     }
   ]
-  
+
   let autosItems = autos.map((auto, index) =>{
     return <Auto auto={auto} key={index}/>
   })

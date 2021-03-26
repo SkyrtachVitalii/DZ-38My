@@ -2,6 +2,7 @@ import './App.scss';
 import AsideMenu from "./components/AsideMenu/AsideMenu";
 import Autos from "./views/Autos/Autos";
 import AutosItem from "./views/Autos/AutosItem";
+import Basket from "./views/Basket/Basket"
 import NotFound404 from "./views/NotFound404/NotFound404";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
@@ -18,6 +19,9 @@ function App() {
           </Route>
           <Route exact path="/Autos/:autoId">
             <AutosItem />
+          </Route>
+          <Route path="/basket">
+            <Basket />
           </Route>
           <Route path="*">
             <NotFound404 />

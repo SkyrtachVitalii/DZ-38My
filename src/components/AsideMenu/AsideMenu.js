@@ -10,6 +10,7 @@ function AsideMenu() {
         <li className="AsideMenu__Item"><NavLink to="/contacts" exact activeClassName="active">Contacts</NavLink></li>
         <li className="AsideMenu__Item"><NavLink to="/cabinet" exact activeClassName="active">Cabinet</NavLink></li>
         <li className="AsideMenu__Item"><NavLink to="/notFound" exact activeClassName="active">404</NavLink></li>
+        <li className="AsideMenu__Item"><NavLink to="/basket" exact activeClassName="active">Basket</NavLink></li>
       </div>
     </div>
   );
